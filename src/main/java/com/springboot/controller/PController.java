@@ -13,5 +13,6 @@ public class PController {
 	@GetMapping("method")
 	public String method() {
 		return order.getName();
+		
 	}
 }
